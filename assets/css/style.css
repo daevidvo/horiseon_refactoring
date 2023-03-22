@@ -15,6 +15,8 @@ header {
     color: #ffffff;
 }
 
+/* changed the code that affected the header class elements to affect the header element itself. Allowed to use the header tag instead of div class="header" in index.html */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +26,8 @@ header h1 {
     color: #d9dcd6;
 }
 
+/* removed the .header h1 .seo class and replaced it with id="seo" instead because creating an entire class for something that's only being shown or used once didn't make a lot of sense. */
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,14 +36,18 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
+/* nav ul {
     list-style-type: none;
-}
+}  */
+
+/* removed the code above from being read because it ultimately didn't affect the end result */
 
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* changed the .header div tags to nav tags instead because of semantics. */
 
 a {
     color: #ffffff;
@@ -58,6 +66,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* changed the hero to an id instead of a class because of the same reasons as #seo seen in lines 25-29. Didn't seem necessary to make a class for something that's only being called to once */
 
 .float-left {
     float: left;
@@ -91,16 +101,22 @@ p {
     color: #ffffff;
 }
 
+/* consolidated .benefit-lead, .benefit-brand, and .benefit-cost into one class so that the margin-bottom and color code aren't repeating. */
+
 .benefit-margin h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* conslidated benefit-margin h3 tag to avoid repeating code. */
 
 .benefit-margin img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* conslidated benefit-margin img tag to avoid repeating code. */
 
 .article-content {
     margin-bottom: 20px;
@@ -111,14 +127,20 @@ p {
     color: #ffffff;
 }
 
+/* consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing code into one class that is called upon multiple times for each of the different sections. Avoiding repeating code. */
+
 .article-content img {
     max-height: 200px;
 }
+
+/* consolidated article-content img tag for the same reason as above */
 
 .article-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* consolidated article-content h2 tag for the same reason as above */
 
 footer {
     padding: 30px;
@@ -127,6 +149,10 @@ footer {
     text-align: center;
 }
 
+/* removed .footer class to simply footer so that we wouldn't need repeating code in index.html. This section of code now affects the footer element entirely instead of needing to add class="footer" to the element. */
+
 footer h2 {
     font-size: 20px;
 }
+
+/* same reason as above. Changed from code effecting the class to any h2 tag that's in the footer element. */
