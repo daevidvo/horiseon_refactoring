@@ -101,7 +101,6 @@ Another very important aspect of web development that I learned is reverse-engin
 * [LinkedIn](https://www.linkedin.com/in/daevidvo)
 * [Github](https://www.github.com/daevidvo)
 
-
 ## License
 
 MIT License
