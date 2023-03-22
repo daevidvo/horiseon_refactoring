@@ -36,11 +36,9 @@ nav {
     font-size: 20px;
 }
 
-/* nav ul {
+nav ul {
     list-style-type: none;
-}  */
-
-/* removed the code above from being read because it ultimately didn't affect the end result */
+} 
 
 nav ul li {
     display: inline-block;
