@@ -95,12 +95,11 @@ Another very important aspect of web development that I learned is reverse-engin
 
 ## Author Info
 
-```md
+
 ### David Vo
 
 * [LinkedIn](https://www.linkedin.com/in/daevidvo)
 * [Github](https://www.github.com/daevidvo)
-```
 
 ## License
 
