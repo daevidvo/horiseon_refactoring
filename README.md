@@ -83,7 +83,7 @@ Optionally, you can also open the webpage in your browser by clicking on this li
 
 ## Usage 
 
-To use the webpage, scroll down to read the information or use the navigation bar and select the section that you'd like to jump to.
+To use the webpage, scroll down to read the information or use the navigation bar and select the section that you'd like to jump to. If you'd like an example of how to use the links in the navigation bar, please refer to the gif in the [Description](#description) portion of this readme.
 
 ## Learning Points 
 
